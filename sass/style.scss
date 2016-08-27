@@ -37,13 +37,15 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Content
 	## Posts and pages
 	## Comments
-# Infinite scroll
+# Shortcodes
 # Media
 	## Captions
 	## Galleries
+# Components
+	## Infinite Scroll
 --------------------------------------------------------------*/
-@import "variables-site/variables-site";
-@import "mixins/mixins-master";
+@import "variables/variables";
+@import "mixins/mixins";
 
 /*--------------------------------------------------------------
 # Normalize
@@ -88,19 +90,19 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /*--------------------------------------------------------------
 # Widgets
 --------------------------------------------------------------*/
-@import "site/secondary/widgets";
+@import "widgets/widgets";
 
 /*--------------------------------------------------------------
-# Content
+# Shortcodes
 --------------------------------------------------------------*/
-@import "site/site";
-
-/*--------------------------------------------------------------
-# Infinite scroll
---------------------------------------------------------------*/
-@import "modules/infinite-scroll";
+@import "shortcodes/shortcodes";
 
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
 @import "media/media";
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+@import "components/components";
