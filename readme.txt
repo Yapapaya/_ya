@@ -1,4 +1,4 @@
-=== _s ===
+=== _ya ===
 
 Contributors: automattic
 Tags: translation-ready, custom-background, theme-options, custom-menu, post-formats, threaded-comments
@@ -25,7 +25,7 @@ Hi. I'm a starter theme called _s, or underscores, if you like. I'm a theme mean
 
 = Does this theme support any plugins? =
 
-_s includes support for Infinite Scroll in Jetpack.
+_ya includes support for Infinite Scroll in Jetpack.
 
 == Changelog ==
 
