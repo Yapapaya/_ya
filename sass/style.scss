@@ -1,20 +1,20 @@
 /*!
-Theme Name: _wpbs_starter
-Theme URI: https://yapapaya.com/projects/wpBootStrap/
+Theme Name: _ya
+Theme URI: https://yapapaya.com/_ya/
 Author: Yapapaya
 Author URI: https://yapapaya.com/
-Description: Hi. I'm a starter theme for the <code>wpBootStrap</code> Framework. I'm based on <code>_s</code>, or <em>underscores</em>. Use me to create your own starter theme and meant only for bootstrapping a fresh WordPress theme for development. If you want to use me directly, consider using <code>_s</code> instead.
+Description: Hi. I'm a starter theme for the <code>wpgg</code> Framework. I'm based on <code>_s</code>, or <em>underscores</em>. Use me to create your own starter theme and meant only for bootstrapping a fresh WordPress theme for development. If you want to use me directly, consider using <code>_s</code> instead.
 Version: 0.0.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: _s
+Text Domain: _ya
 Tags:
 
 This theme, like WordPress, is licensed under the GPL.
 
-_wpbs_starter is built using the wpBootStrap framework https://yapapaya.com/projects/wpBootStrap. (C) 2016 Yapapaya LLC.
+_ya is built using the wpBootStrap framework https://github.com/Yapapaya/wp-get-go. (C) 2016 Yapapaya Technologies LLP.
 
-_wpbs_starter is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+_ya is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
 Underscores is distributed under the terms of the GNU GPL v2 or later.
 
 Normalizing styles have been helped along thanks to the fine work of
@@ -47,8 +47,8 @@ The placheholder above will be replaced by an auto-generated Table Of Contents
 
 # Usage:
 
-1. Use this, as it is, as a *starter* theme with your implementation of the wpBootStrap framework.
-2. Hack this to *build your own* starter theme for the wpBootStrap framework.
+1. Use this, as it is, as a *starter* theme with your implementation of the wp-get-go framework.
+2. Hack this to *build your own* starter theme for the wp-get-go framework.
 
 
 ## As it is
@@ -56,7 +56,7 @@ The placheholder above will be replaced by an auto-generated Table Of Contents
 All the comments and import statements that follow are going to be ignored. 
 
 
-## Hack your own
+## If you're hacking your own starter theme
 
 These import statements are needed. These decide the order in which all the scss
 will be included in the final style.scss.
@@ -70,7 +70,7 @@ See: http://thesassway.com/intermediate/using-source-maps-with-sass
 After you add all the appropriate import statements, regenerate the style.css 
 which will regenerate the style.css.map
 
-The wpBootStrap's grunt plugin needs this map,
+The wp-get-go's node app needs this map,
 you can safely delete the style.css before deploying as a starter theme.
 --------------------------------------------------------------*/
 
